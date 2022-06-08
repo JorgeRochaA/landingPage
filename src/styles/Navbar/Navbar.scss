@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.navbar {
+  height: 78px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  color: #000000;
+
+  h2 {
+    height: 78px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 48px;
+  }
+
+  .options_container {
+    height: 78px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    width: 85%;
+    .options {
+      height: 19px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      margin-left: 29px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .signUp_container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 10px;
+      background: rgba(42, 182, 145, 0.1);
+      border-radius: 10px;
+      margin-right: 48px;
+      margin-left: 34px;
+      padding: 0 12px;
+      .signUp {
+        width: 60px;
+        height: 19px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2ab691;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      &:hover {
+        background: rgba(42, 182, 145, 0.2);
+        cursor: pointer;
+      }
+    }
+  }
+  .burger {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .navbar {
+    position: relative;
+    .options_container {
+      width: 100%;
+      position: absolute;
+      bottom: -365px;
+      height: 350px;
+      left: -100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      transition: 0.5s;
+      padding: 0 !important;
+      .options {
+        margin: 0;
+      }
+      .signUp_container {
+        margin: 0;
+      }
+      &.open {
+        bottom: -365px;
+        left: 0;
+      }
+    }
+  }
+  .burger {
+    display: flex !important;
+    height: 50px;
+    width: 70px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    cursor: pointer;
+    margin-right: 29px;
+    .bars {
+      height: 5px;
+      background-color: #000000;
+      border-radius: 5px;
+      transition: 0.5s;
+    }
+    :nth-child(1) {
+      width: 25%;
+    }
+    :nth-child(2) {
+      width: 50%;
+    }
+    :nth-child(3) {
+      width: 75%;
+    }
+    &.open {
+      :nth-child(1) {
+        width: 50%;
+        transform: translate(18px, 15px) rotate(40deg);
+      }
+      :nth-child(2) {
+        transform: translateX(-80px);
+      }
+      :nth-child(3) {
+        width: 50%;
+        transform: translate(18px, -13px) rotate(-45deg);
+      }
+    }
+  }
+}
