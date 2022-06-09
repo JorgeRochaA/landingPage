@@ -1,0 +1,27 @@
+[
+    {
+      "url": "https://i.ibb.co/L0gsJ74/floppy-Disk.png",
+      "title": "Management",
+      "description":
+        "Software platform for running your new internet business"
+    },
+    {
+        "url": "https://i.ibb.co/zPXcyq6/remote.png",
+        "title": "Entertainment",
+        "description":
+          "Software platform for running your new internet business"
+      },
+      {
+        "url": "https://i.ibb.co/C58v88w/camera.png",
+        "title": "Marketing",
+        "description":
+          "Software platform for running your new internet business"
+      },
+      
+      {
+        "url": "https://i.ibb.co/vqg1Bhz/compass.png",
+        "title": "References",
+        "description":
+          "Software platform for running your new internet business"
+      }
+  ]
