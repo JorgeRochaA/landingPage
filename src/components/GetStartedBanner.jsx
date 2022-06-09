@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/GetStartedBanner/GetStartedBanner.scss";
+
 function GetStartedBanner() {
   return (
     <div className="banner_container">

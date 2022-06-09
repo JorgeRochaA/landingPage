@@ -29,21 +29,24 @@ function ServicesSection() {
             the most powerful and flexible tools for internet commerce.
           </div>
           <div className="services_data_info_button"></div>
-        </div>
-        <div className="services_data_social_medias">
-          <div className="social_medias_title">Follow us</div>
-          <div>
-            <div className="social_medias">
-              <img src="https://i.ibb.co/wpgw36D/facebook.png" alt="Facebook" />
-            </div>
-            <div className="social_medias">
-              <img
-                src="https://i.ibb.co/mFXm3hW/instagram.png"
-                alt="Instagram"
-              />
-            </div>
-            <div className="social_medias">
-              <img src="https://i.ibb.co/X376X56/twitter.png" alt="Twitter" />
+          <div className="services_data_social_medias">
+            <div className="social_medias_title">Follow us</div>
+            <div>
+              <div className="social_medias">
+                <img
+                  src="https://i.ibb.co/wpgw36D/facebook.png"
+                  alt="Facebook"
+                />
+              </div>
+              <div className="social_medias">
+                <img
+                  src="https://i.ibb.co/mFXm3hW/instagram.png"
+                  alt="Instagram"
+                />
+              </div>
+              <div className="social_medias">
+                <img src="https://i.ibb.co/X376X56/twitter.png" alt="Twitter" />
+              </div>
             </div>
           </div>
         </div>
