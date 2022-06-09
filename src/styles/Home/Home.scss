@@ -6,7 +6,7 @@
   color: #000000;
 
   .services_container {
-    height: 921px;
+    height: 700px;
     width: 100%;
     display: flex;
     .cards_container {
@@ -19,7 +19,7 @@
       gap: 30px;
     }
     .services_data {
-      height: 650px;
+      height: 615px;
       width: 50%;
       display: flex;
       flex-direction: column;
@@ -65,8 +65,9 @@
         }
       }
       .services_data_social_medias {
+        margin-top: 50px;
+        width: 55%;
         align-self: flex-start;
-        margin-left: 110px;
         .social_medias_title {
           height: 30px;
           width: 64px;
@@ -106,7 +107,7 @@
 @media screen and (max-width: 550px) {
   .services_container {
     height: 100% !important;
-    flex-direction: column;
+    flex-direction: column-reverse !important;
     align-items: center;
     .cards_container {
       margin-top: 30px;
@@ -136,12 +137,19 @@
       }
       .services_data_social_medias {
         margin-top: 30px !important;
+        width: 90% !important;
         align-self: center !important;
-        margin-left: 0 !important;
+        div {
+          justify-content: center;
+        }
         .social_medias_title {
           width: 100% !important;
           display: grid !important;
           place-items: center !important;
+        }
+        .social_medias {
+          margin-right: 0 !important;
+          margin: 0 10px;
         }
       }
     }
@@ -149,9 +157,9 @@
 }
 @media screen and (min-width: 551px) and (max-width: 1000px) {
   .services_container {
-    height: 100%;
+    height: 100% !important;
     margin: 30px 0;
-    flex-direction: column;
+    flex-direction: column-reverse;
     .cards_container {
       height: 100% !important;
       width: 100% !important;
@@ -162,6 +170,7 @@
     .services_data {
       padding: 30px 0;
       width: 100% !important;
+      justify-content: space-evenly !important;
       align-items: center !important;
       .services_data_info {
         width: 90% !important;
@@ -178,6 +187,9 @@
         margin-top: 30px !important;
         align-self: center !important;
         margin-left: 0 !important;
+        div {
+          justify-content: center;
+        }
         .social_medias_title {
           width: 100% !important;
           display: grid !important;
@@ -192,6 +204,7 @@
   .services_container {
     flex-direction: column;
     align-items: center;
+    height: 100% !important;
     .cards_container {
       height: 100% !important;
       width: 100% !important;
@@ -204,6 +217,7 @@
       padding: 30px 0;
       width: 100% !important;
       align-items: center !important;
+      justify-content: space-evenly !important;
       .services_data_info {
         width: 90% !important;
         .services_data_info_title,
@@ -216,7 +230,6 @@
         }
       }
       .services_data_social_medias {
-        margin-top: 30px !important;
         align-self: center !important;
         margin-left: 0 !important;
         .social_medias_title {
