@@ -27,12 +27,14 @@
     align-items: center;
     list-style: none;
     width: 85%;
+    background-color: #ffffff;
     .options {
       height: 19px;
       font-weight: 400;
       font-size: 16px;
       line-height: 19px;
       margin-left: 29px;
+
       &:hover {
         cursor: pointer;
       }
