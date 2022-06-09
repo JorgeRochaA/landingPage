@@ -32,9 +32,9 @@ function Navbar() {
         className={menuIsOpen ? "burger open" : "burger"}
         onClick={toggleMenu}
       >
-        <div class="bars"></div>
-        <div class="bars"></div>
-        <div class="bars"></div>
+        <div className="bars"></div>
+        <div className="bars"></div>
+        <div className="bars"></div>
       </div>
     </div>
   );
