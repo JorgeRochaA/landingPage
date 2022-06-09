@@ -1,8 +1,8 @@
 import React from "react";
-import Card from "../components/Card/Card.jsx";
+import Card from "../components/Card";
 import Navbar from "../components/Navbar";
 import MainSection from "../components/MainSection";
-import CardsInfo from "../components/Card/cardInfo.json";
+import CardsInfo from "../components/cardInfo.json";
 import "../styles/Home/Home.scss";
 
 function Home() {

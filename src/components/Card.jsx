@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/Card/Card.scss";
+import "../styles/Card/Card.scss";
 function Card({ url, title, description }) {
   return (
     <div className="card">
