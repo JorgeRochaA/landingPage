@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Make more time for the work",
+        "descriptions": [
+            "Many ways to use illustrations in design",
+            "Simply explained with illustrations",
+            "Make more time for the work"
+        ],
+        "image": {
+            "name": "cake",
+            "url": "https://i.ibb.co/VQc45s8/cake.png"
+        },
+        "orientation": ""
+    },
+    {
+        "title": "Make more time for the work",
+        "descriptions": [
+            "Many ways to use illustrations in design",
+            "Simply explained with illustrations",
+            "Make more time for the work"
+        ],
+        "image": {
+            "name": "spinner",
+            "url": "https://i.ibb.co/7VvBWPc/spinner.png"
+        },
+        "orientation": "reverse"
+    }
+]

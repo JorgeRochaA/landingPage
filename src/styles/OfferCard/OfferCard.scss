@@ -1,0 +1,114 @@
+.offer_card {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-bottom: 55px;
+  .offer_card_image_container {
+    height: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 70%;
+    }
+  }
+  .offer_card_data_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .offer_card_data_title {
+      text-align: center;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 60px;
+      letter-spacing: -2.5px;
+    }
+    .offer_card_data_description {
+      .offer_card_data_detail {
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.8px;
+        &:first-child {
+          margin-top: 30px;
+        }
+        .check {
+          height: 19px;
+          width: 19px;
+          display: grid;
+          place-items: center;
+          border: 1.5px solid #2ab691;
+          border-radius: 50%;
+          margin-right: 13px;
+        }
+      }
+    }
+    .offer_card_data_button {
+      width: 100%;
+      display: grid;
+      place-items: center;
+      .button {
+        height: 100%;
+        margin-top: 28px;
+        display: grid;
+        align-items: center;
+        width: 147px;
+        height: 54px;
+        background: rgba(95, 98, 226, 0.15);
+        border-radius: 10px;
+        align-self: flex-start;
+        margin-top: 29px;
+        background-image: url("../../assets/LearnMore.png");
+        transition: 0.5s;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          background-image: url("../../assets/learngMoreHover.png");
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .offer_card {
+    flex-direction: row;
+    &.reverse {
+      flex-direction: row-reverse;
+      .offer_card_image_container {
+        img {
+          height: 90%;
+          margin-left: 230px;
+        }
+      }
+    }
+
+    .offer_card_image_container {
+      width: 346px;
+      img {
+        height: 90%;
+        margin-right: 230px;
+      }
+    }
+
+    .offer_card_data_container {
+      .offer_card_data_title {
+        width: 400px;
+        text-align: left;
+      }
+      .offer_card_data_detail {
+        width: 405px;
+        height: 40px;
+        font-size: 21px !important;
+      }
+
+      .offer_card_data_button {
+        display: flex;
+      }
+    }
+  }
+}
