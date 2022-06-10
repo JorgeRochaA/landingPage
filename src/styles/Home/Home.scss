@@ -232,6 +232,9 @@
       .services_data_social_medias {
         align-self: center !important;
         margin-left: 0 !important;
+        div {
+          justify-content: center;
+        }
         .social_medias_title {
           width: 100% !important;
           display: grid !important;

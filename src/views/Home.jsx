@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import MainSection from "../components/MainSection";
 import ServicesSection from "../components/ServicesSection";
+import CompaniesSection from "../components/CompaniesSection";
 import GetStartedBanner from "../components/GetStartedBanner";
 import "../styles/Home/Home.scss";
 
@@ -11,6 +12,7 @@ function Home() {
       <Navbar />
       <MainSection />
       <ServicesSection />
+      <CompaniesSection />
       <GetStartedBanner />
     </div>
   );
