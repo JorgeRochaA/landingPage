@@ -1,0 +1,29 @@
+[
+    {
+        "image": {
+            "name": "vase 1",
+            "url": "https://i.ibb.co/ZzQ0VkT/vase1.png"
+        },
+        "title": "Make myspace your best designed space",
+        "description": "A lot of different components that will help you create the perfect look for your project",
+        "button_name": "Design"
+    },
+    {
+        "image": {
+            "name": "vase 2",
+            "url": "https://i.ibb.co/1XTYKHm/vase2.png"
+        },
+        "title": "My company culture has changed today",
+        "description": "A lot of different components that will help you create the perfect look for your project",
+        "button_name": "3D illustrations"
+    },
+    {
+        "image": {
+            "name": "vase 3",
+            "url": "https://i.ibb.co/LNpHZmS/vase3.png"
+        },
+        "title": "Professionals in craft! All products were super great",
+        "description": "A lot of different components that will help you create the perfect look for your project",
+        "button_name": "Development"
+    }
+]
