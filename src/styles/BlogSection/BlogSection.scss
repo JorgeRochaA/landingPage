@@ -48,8 +48,26 @@
       }
     }
   }
+  .blog_cards_container {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
-
+@media screen and (min-width: 896px) and (max-width: 1359px) {
+  .blog_cards_container {
+    grid-template-columns: repeat(2, auto) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .blog_cards_container {
+    grid-template-columns: repeat(3, auto) !important;
+  }
+}
 @media screen and (min-width: 1135px) {
   .blog_container {
     div {
