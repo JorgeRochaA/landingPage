@@ -6,6 +6,7 @@ import CompaniesSection from "../components/CompaniesSection";
 import UISection from "../components/UISection";
 import GetStartedBanner from "../components/GetStartedBanner";
 import BlogSection from "../components/BlogSection";
+import Footer from "../components/Footer";
 import "../styles/Home/Home.scss";
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <UISection />
       <GetStartedBanner />
       <BlogSection />
+      <Footer />
     </div>
   );
 }
