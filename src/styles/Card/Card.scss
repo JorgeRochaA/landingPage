@@ -2,7 +2,7 @@
 .card {
   height: 310px;
   width: 300px;
-  background: #ffffff;
+  background: #f7f7fa;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -10,10 +10,18 @@
   align-items: center;
   font-family: "Inter";
   font-style: normal;
-  img {
-    height: 96px;
-    width: 96px;
+  .circle {
+    background-color: #e7eef3;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    img {
+      height: 70%;
+    }
   }
+
   .card_title {
     height: 30px;
     width: 152px;
