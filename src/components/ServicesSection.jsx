@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
 import CardsInfo from "../components/cardInfo.json";
+import "../styles/ServicesSection/ServicesSection.scss";
 function ServicesSection() {
   return (
     <div className="services_container">
