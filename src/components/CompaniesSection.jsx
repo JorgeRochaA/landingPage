@@ -3,12 +3,12 @@ import "../styles/CompaniesSection/CompaniesSection.scss";
 
 function CompaniesSection() {
   const companies = [
-    "https://i.ibb.co/j62CQnG/google.png",
-    "https://i.ibb.co/9Tt58NX/strape.png",
-    "https://i.ibb.co/FKFhG6T/uber.png",
-    "https://i.ibb.co/HXpDp8X/nike.png",
-    "https://i.ibb.co/yY9S4LM/airbnb.png",
-    "https://i.ibb.co/cybrF2j/mastercard.png",
+    "https://i.ibb.co/2dP1WZ3/google.png",
+    "https://i.ibb.co/F6zHH9R/stripe.png",
+    "https://i.ibb.co/dpVP8zQ/microsoft.png",
+    "https://i.ibb.co/khCZgFS/pfizer.png",
+    "https://i.ibb.co/hRzNJx8/airbnb.png",
+    "https://i.ibb.co/M7bRLTM/emirates.png",
   ];
   return (
     <div className="companies_container">

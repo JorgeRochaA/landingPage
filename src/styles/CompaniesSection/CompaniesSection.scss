@@ -59,8 +59,14 @@
     align-items: center;
     justify-content: center;
     gap: 10px 20px;
+    transition: 0.5s;
     img {
       width: 90px;
+      filter: brightness(0%);
+
+      &:hover {
+        filter: brightness(100%);
+      }
     }
   }
 }
