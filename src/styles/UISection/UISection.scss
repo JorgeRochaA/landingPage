@@ -54,18 +54,20 @@
 }
 
 @media screen and (min-width: 745px) {
-  .ui_section_title {
-    width: 711px;
-  }
-  .ui_section_image_container {
-    width: 80%;
-    margin-top: 30px;
-    margin-bottom: 75px !important;
-    .play_button {
-      height: 50px !important;
-      width: 50px !important;
-      img {
-        width: 35% !important;
+  .ui_section_container {
+    .ui_section_title {
+      width: 711px;
+    }
+    .ui_section_image_container {
+      width: 80%;
+      margin-top: 30px;
+      margin-bottom: 75px;
+      .play_button {
+        height: 50px;
+        width: 50px;
+        img {
+          width: 35%;
+        }
       }
     }
   }

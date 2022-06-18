@@ -61,16 +61,18 @@
 @media screen and (min-width: 610px) and (max-width: 1075px) {
   .banner_container {
     margin-top: 50px;
-    .banner_data_title {
-      font-size: 55px !important;
-      padding: 25px 0;
+    .banner_data_container {
+      .banner_data_title {
+        font-size: 55px;
+        padding: 25px 0;
+      }
     }
     .banner_image_container {
-      height: 250px !important;
+      height: 250px;
       align-items: flex-end;
       img {
-        height: 90% !important;
-        width: auto !important;
+        height: 90%;
+        width: auto;
       }
     }
   }

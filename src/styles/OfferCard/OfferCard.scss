@@ -100,10 +100,12 @@
         width: 400px;
         text-align: left;
       }
-      .offer_card_data_detail {
-        width: 405px;
-        height: 40px;
-        font-size: 21px !important;
+      .offer_card_data_description {
+        .offer_card_data_detail {
+          width: 405px;
+          height: 40px;
+          font-size: 21px;
+        }
       }
 
       .offer_card_data_button {

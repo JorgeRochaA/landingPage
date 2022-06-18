@@ -69,8 +69,10 @@
   }
 }
 @media screen and (min-width: 670px) and (max-width: 869px) {
-  .footer_links {
-    gap: 100px !important;
+  .footer {
+    .footer_links {
+      gap: 50px 100px;
+    }
   }
 }
 @media screen and (min-width: 870px) {
