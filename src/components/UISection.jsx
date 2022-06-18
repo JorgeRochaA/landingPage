@@ -1,7 +1,7 @@
 import React from "react";
 import OfferCard from "../components/OfferCard";
 import "../styles/UISection/UISection.scss";
-import offerCardsData from "../components/offerCardData.json";
+import offerCardsData from "../data/offerCardData.json";
 function UISection() {
   return (
     <div className="ui_section_container">

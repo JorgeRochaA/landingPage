@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Footer/Footer.scss";
-import FooterLinksData from "./footerLinksData.json";
+import FooterLinksData from "../data/footerLinksData.json";
 function Footer() {
   return (
     <div className="footer">

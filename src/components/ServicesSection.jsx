@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
-import CardsInfo from "../components/cardInfo.json";
+import CardsInfo from "../data/cardInfo.json";
 import "../styles/ServicesSection/ServicesSection.scss";
 function ServicesSection() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import BlogCard from "../components/BlogCard";
-import CardBlogData from "./cardBlogData.json";
+import CardBlogData from "../data/cardBlogData.json";
 import "../styles/BlogSection/BlogSection.scss";
 function BlogSection() {
   return (
