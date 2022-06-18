@@ -35,19 +35,19 @@ function Footer() {
         <div className="footer_links_4">
           <div className="link">Social</div>
           <div className="link">
-            <i class="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-facebook"></i>
             Facebook
           </div>
           <div className="link">
-            <i class="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-instagram"></i>
             Instagram
           </div>
           <div className="link">
-            <i class="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-twitter"></i>
             Twitter
           </div>
           <div className="link">
-            <i class="fa-brands fa-snapchat"></i>
+            <i className="fa-brands fa-snapchat"></i>
             Snapchat
           </div>
         </div>
