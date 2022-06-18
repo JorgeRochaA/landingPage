@@ -72,21 +72,25 @@
 }
 
 @media screen and (min-width: 651px) and (max-width: 1299px) {
-  .companies_data_title {
-    width: 463px;
-    font-weight: 700;
-  }
-  .companies_data_description {
-    width: 463px !important;
-  }
-  .companies_image_container {
-    padding-bottom: 25px;
-    img {
-      width: 70%;
+  .companies_container {
+    .companies_data_title {
+      width: 463px;
+      font-weight: 700;
+    }
+    .companies_data_container {
+      .companies_data_description {
+        width: 463px;
+      }
+      .companies_image_container {
+        padding-bottom: 25px;
+        img {
+          width: 70%;
+        }
+      }
     }
   }
   .companies_trusted_container {
-    grid-template-columns: repeat(3, auto) !important;
+    grid-template-columns: repeat(3, auto);
   }
 }
 

@@ -100,14 +100,16 @@
   }
 }
 @media screen and (min-width: 697px) {
-  .cards_container {
-    grid-template-columns: repeat(2, auto) !important;
-  }
-  .services_data_info_title {
-    width: 80%;
-  }
-  .services_data_info_description {
-    width: 60%;
+  .services_container {
+    .cards_container {
+      grid-template-columns: repeat(2, auto);
+    }
+    .services_data_info_title {
+      width: 80%;
+    }
+    .services_data_info_description {
+      width: 60%;
+    }
   }
 }
 
