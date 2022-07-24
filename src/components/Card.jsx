@@ -1,15 +1,20 @@
 import React from "react";
-import "../styles/Card/Card.scss";
+import {
+  CardStyled,
+  Circle,
+  CardImage,
+  CardTitle,
+  CardDescription,
+} from "../styles/Card";
 function Card({ url, title, description }) {
   return (
-    <div className="card">
-      <div className="circle">
-        {" "}
-        <img src={url} alt={title} />
-      </div>
-      <div className="card_title">{title}</div>
-      <div className="card_description">{description}</div>
-    </div>
+    <CardStyled>
+      <Circle>
+        <CardImage src={url} alt={title} />
+      </Circle>
+      <CardTitle>{title}</CardTitle>
+      <CardDescription>{description}</CardDescription>
+    </CardStyled>
   );
 }
 
