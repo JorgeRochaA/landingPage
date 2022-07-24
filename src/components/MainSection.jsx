@@ -1,27 +1,37 @@
 import React from "react";
-import "../styles/MainSection/MainSection.scss";
+import {
+  MainContainer,
+  MainContainerData,
+  MainContainerDataTitle,
+  MainContainerDataInfo,
+  MainContainerDataButtons,
+  MainButtonGetStarted,
+  MainButtonLearnMore,
+  MainContainerImage,
+  ImageContainer,
+} from "../styles/MainSection";
 function MainSection() {
   return (
-    <div className="main_container">
-      <div className="main_container_data">
-        <div className="main_container_data_title">
+    <MainContainer>
+      <MainContainerData>
+        <MainContainerDataTitle>
           Simply explained with illustrations
-        </div>
-        <div className="main_container_data_info">
+        </MainContainerDataTitle>
+        <MainContainerDataInfo>
           There are a lot of different components that will help you create the
           perfect look for your project
-        </div>
-        <div className="main_container_data_buttons">
-          <div className="main_button_getStarted">Get Started</div>
-          <div className="main_button_learnMore">Learn More</div>
-        </div>
-      </div>
-      <div className="main_container_image">
-        <div className="image">
+        </MainContainerDataInfo>
+        <MainContainerDataButtons>
+          <MainButtonGetStarted>Get Started</MainButtonGetStarted>
+          <MainButtonLearnMore>Learn More</MainButtonLearnMore>
+        </MainContainerDataButtons>
+      </MainContainerData>
+      <MainContainerImage>
+        <ImageContainer>
           <img src={require("../assets/rocket.png")} alt="rocket" />
-        </div>
-      </div>
-    </div>
+        </ImageContainer>
+      </MainContainerImage>
+    </MainContainer>
   );
 }
 
