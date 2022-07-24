@@ -1,4 +1,5 @@
 import React from "react";
+import { HomeStyled } from "../styles/Home";
 import Navbar from "../components/Navbar";
 import MainSection from "../components/MainSection";
 import ServicesSection from "../components/ServicesSection";
@@ -7,10 +8,9 @@ import UISection from "../components/UISection";
 import GetStartedBanner from "../components/GetStartedBanner";
 import BlogSection from "../components/BlogSection";
 import Footer from "../components/Footer";
-import "../styles/Home/Home.scss";
 function Home() {
   return (
-    <div className="home">
+    <HomeStyled>
       <Navbar />
       <MainSection />
       <ServicesSection />
@@ -19,7 +19,7 @@ function Home() {
       <GetStartedBanner />
       <BlogSection />
       <Footer />
-    </div>
+    </HomeStyled>
   );
 }
 
