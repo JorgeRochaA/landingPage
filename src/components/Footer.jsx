@@ -1,63 +1,58 @@
 import React from "react";
-import "../styles/Footer/Footer.scss";
+import {
+  FooterStyled,
+  FooterLinksContainer,
+  FooterLinks,
+  Link,
+  CopyrightContainer,
+  Copyright,
+} from "../styles/Footer";
 import FooterLinksData from "../data/footerLinksData.json";
 function Footer() {
   return (
-    <div className="footer">
-      <div className="footer_links">
-        <div className="footer_links_1">
+    <FooterStyled>
+      <FooterLinksContainer>
+        <FooterLinks className="footer_links_1">
           {FooterLinksData[0].map((link, index) => {
-            return (
-              <div className="link" key={index}>
-                {link}
-              </div>
-            );
+            return <Link key={index}>{link}</Link>;
           })}
-        </div>
-        <div className="footer_links_2">
+        </FooterLinks>
+        <FooterLinks className="footer_links_2">
           {FooterLinksData[1].map((link, index) => {
-            return (
-              <div className="link" key={index}>
-                {link}
-              </div>
-            );
+            return <Link key={index}>{link}</Link>;
           })}
-        </div>
-        <div className="footer_links_3">
+        </FooterLinks>
+        <FooterLinks className="footer_links_3">
           {FooterLinksData[2].map((link, index) => {
-            return (
-              <div className="link" key={index}>
-                {link}
-              </div>
-            );
+            return <Link key={index}>{link}</Link>;
           })}
-        </div>
-        <div className="footer_links_4">
-          <div className="link">Social</div>
-          <div className="link">
+        </FooterLinks>
+        <FooterLinks className="footer_links_4">
+          <Link>Social</Link>
+          <Link>
             <i className="fa-brands fa-facebook"></i>
             Facebook
-          </div>
-          <div className="link">
+          </Link>
+          <Link>
             <i className="fa-brands fa-instagram"></i>
             Instagram
-          </div>
-          <div className="link">
+          </Link>
+          <Link>
             <i className="fa-brands fa-twitter"></i>
             Twitter
-          </div>
-          <div className="link">
+          </Link>
+          <Link>
             <i className="fa-brands fa-snapchat"></i>
             Snapchat
-          </div>
-        </div>
-      </div>
-      <div className="footer_copyright">
-        <div className="copyright">
+          </Link>
+        </FooterLinks>
+      </FooterLinksContainer>
+      <CopyrightContainer>
+        <Copyright>
           © Jorge Rocha, {new Date().getFullYear()}. All rights reserved.
-        </div>
-      </div>
-    </div>
+        </Copyright>
+      </CopyrightContainer>
+    </FooterStyled>
   );
 }
 
