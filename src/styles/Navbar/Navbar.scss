@@ -85,7 +85,7 @@
       align-items: center;
       justify-content: space-evenly;
       transition: 0.5s;
-      padding: 0 !important;
+      padding: 0;
       .options {
         margin: 0;
       }
@@ -97,42 +97,42 @@
         left: 0;
       }
     }
-  }
-  .burger {
-    display: flex !important;
-    height: 50px;
-    width: 70px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    overflow: hidden;
-    cursor: pointer;
-    margin-right: 29px;
-    .bars {
-      height: 5px;
-      background-color: #000000;
-      border-radius: 5px;
-      transition: 0.5s;
-    }
-    :nth-child(1) {
-      width: 25%;
-    }
-    :nth-child(2) {
-      width: 50%;
-    }
-    :nth-child(3) {
-      width: 75%;
-    }
-    &.open {
+    .burger {
+      display: flex;
+      height: 50px;
+      width: 70px;
+      flex-direction: column;
+      justify-content: space-evenly;
+      overflow: hidden;
+      cursor: pointer;
+      margin-right: 29px;
+      .bars {
+        height: 5px;
+        background-color: #000000;
+        border-radius: 5px;
+        transition: 0.5s;
+      }
       :nth-child(1) {
-        width: 50%;
-        transform: translate(18px, 15px) rotate(40deg);
+        width: 25%;
       }
       :nth-child(2) {
-        transform: translateX(-80px);
+        width: 50%;
       }
       :nth-child(3) {
-        width: 50%;
-        transform: translate(18px, -13px) rotate(-45deg);
+        width: 75%;
+      }
+      &.open {
+        :nth-child(1) {
+          width: 50%;
+          transform: translate(18px, 15px) rotate(40deg);
+        }
+        :nth-child(2) {
+          transform: translateX(-80px);
+        }
+        :nth-child(3) {
+          width: 50%;
+          transform: translate(18px, -13px) rotate(-45deg);
+        }
       }
     }
   }
