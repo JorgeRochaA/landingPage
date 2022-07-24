@@ -80,5 +80,7 @@ export const BlogCardButton = styled.div`
     padding: 0px 10px;
     font-size: 13px;
     margin-left: 55px;
+    text-align: center;
+    justify-content: center;
   }
 `;
