@@ -1,6 +1,14 @@
 import React, { useState } from "react";
-
-import "../styles/Navbar/Navbar.scss";
+import {
+  NavbarContainer,
+  Logo,
+  OptionsContainer,
+  Option,
+  SignUpContainer,
+  SignUp,
+  Burger,
+  Bar,
+} from "../styles/Navbar";
 
 function Navbar() {
   const options = ["About", "Services", "Projects", "Contacts"];
@@ -12,31 +20,22 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar">
-      <h2>Logo</h2>
-      <ul
-        className={menuIsOpen ? "options_container open" : "options_container"}
-      >
+    <NavbarContainer>
+      <Logo>Logo</Logo>
+      <OptionsContainer className={menuIsOpen ? "open" : ""}>
         {options.map((option, index) => {
-          return (
-            <h3 className="options" key={index}>
-              {option}
-            </h3>
-          );
+          return <Option key={index}>{option}</Option>;
         })}
-        <div className="signUp_container">
-          <h3 className="signUp">Sign Up</h3>
-        </div>
-      </ul>
-      <div
-        className={menuIsOpen ? "burger open" : "burger"}
-        onClick={toggleMenu}
-      >
-        <div className="bars"></div>
-        <div className="bars"></div>
-        <div className="bars"></div>
-      </div>
-    </div>
+        <SignUpContainer>
+          <SignUp>Sign Up</SignUp>
+        </SignUpContainer>
+      </OptionsContainer>
+      <Burger className={menuIsOpen ? "open" : ""} onClick={toggleMenu}>
+        <Bar></Bar>
+        <Bar></Bar>
+        <Bar></Bar>
+      </Burger>
+    </NavbarContainer>
   );
 }
 
