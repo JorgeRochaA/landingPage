@@ -126,6 +126,9 @@ export const Burger = styled.div`
   overflow: hidden;
   cursor: pointer;
   margin-right: 29px;
+  ${media.desktop} {
+    display: none;
+  }
   &.open {
     ${Bar}:nth-child(1) {
       width: 50%;
